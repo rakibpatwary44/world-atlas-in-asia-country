@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "countryName": "Bangladesh",
+    "capital": "Dhaka",
+    "population": 173562364,
+    "interestingFact": "Bangladesh is home to the Sundarbans, the world's largest mangrove forest."
+  },
+  {
+    "id": 2,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1428627663,
+    "interestingFact": "India is the world's most populous country and is home to the Taj Mahal."
+  },
+  {
+    "id": 3,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 123294513,
+    "interestingFact": "Japan is an island country made up of thousands of islands and is famous for Mount Fuji."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26658948,
+    "interestingFact": "Australia is home to the Great Barrier Reef, the world's largest coral reef system."
+  },
+  {
+    "id": 5,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 216422446,
+    "interestingFact": "Brazil is home to the Amazon rainforest, the largest tropical rainforest in the world."
+  },
+  {
+    "id": 6,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 40097761,
+    "interestingFact": "Canada has the longest coastline of any country in the world."
+  },
+  {
+    "id": 7,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 112716598,
+    "interestingFact": "Egypt is home to the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World."
+  },
+  {
+    "id": 8,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 68170228,
+    "interestingFact": "France is home to the Eiffel Tower, one of the world's most recognizable landmarks."
+  },
+  {
+    "id": 9,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 58925846,
+    "interestingFact": "Italy is home to more UNESCO World Heritage Sites than any other country."
+  },
+  {
+    "id": 10,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 347275807,
+    "interestingFact": "The United States is home to Yellowstone, widely considered the world's first national park."
+  },
+  {
+    "id": 11,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": 69320000,
+    "interestingFact": "The United Kingdom is made up of four countries: England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "id": 12,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 84100000,
+    "interestingFact": "Germany is famous for its castles, engineering, and the historic Berlin Wall."
+  },
+  {
+    "id": 13,
+    "countryName": "Spain",
+    "capital": "Madrid",
+    "population": 49100000,
+    "interestingFact": "Spain is famous for flamenco dancing, football, and the historic Sagrada Familia."
+  },
+  {
+    "id": 14,
+    "countryName": "Portugal",
+    "capital": "Lisbon",
+    "population": 10700000,
+    "interestingFact": "Portugal is one of the oldest countries in Europe with nearly unchanged borders since 1297."
+  },
+  {
+    "id": 15,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 131000000,
+    "interestingFact": "Mexico is the birthplace of chocolate and is home to ancient Maya and Aztec civilizations."
+  },
+  {
+    "id": 16,
+    "countryName": "Argentina",
+    "capital": "Buenos Aires",
+    "population": 45800000,
+    "interestingFact": "Argentina is home to Aconcagua, the highest mountain in both the Western and Southern Hemispheres."
+  },
+  {
+    "id": 17,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 63300000,
+    "interestingFact": "South Africa has three capital cities: Pretoria, Cape Town, and Bloemfontein."
+  },
+  {
+    "id": 18,
+    "countryName": "Nigeria",
+    "capital": "Abuja",
+    "population": 237000000,
+    "interestingFact": "Nigeria is the most populous country in Africa and has hundreds of ethnic groups and languages."
+  },
+  {
+    "id": 19,
+    "countryName": "Kenya",
+    "capital": "Nairobi",
+    "population": 57000000,
+    "interestingFact": "Kenya is famous for its wildlife and the annual Great Migration across the Maasai Mara."
+  },
+  {
+    "id": 20,
+    "countryName": "Saudi Arabia",
+    "capital": "Riyadh",
+    "population": 34700000,
+    "interestingFact": "Saudi Arabia is home to the holy cities of Mecca and Medina."
+  },
+  {
+    "id": 21,
+    "countryName": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "population": 11200000,
+    "interestingFact": "The United Arab Emirates is home to Burj Khalifa, the world's tallest building."
+  },
+  {
+    "id": 22,
+    "countryName": "Turkey",
+    "capital": "Ankara",
+    "population": 86000000,
+    "interestingFact": "Turkey lies on two continents, Europe and Asia, and Istanbul is its largest city."
+  },
+  {
+    "id": 23,
+    "countryName": "South Korea",
+    "capital": "Seoul",
+    "population": 51700000,
+    "interestingFact": "South Korea is known worldwide for K-pop, Korean dramas, and advanced technology."
+  },
+  {
+    "id": 24,
+    "countryName": "Thailand",
+    "capital": "Bangkok",
+    "population": 71600000,
+    "interestingFact": "Thailand is known as the Land of Smiles and has never been formally colonized by a European power."
+  },
+  {
+    "id": 25,
+    "countryName": "Indonesia",
+    "capital": "Jakarta",
+    "population": 285000000,
+    "interestingFact": "Indonesia is the world's largest island country and consists of thousands of islands."
+  },
+  {
+    "id": 26,
+    "countryName": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "population": 35600000,
+    "interestingFact": "Malaysia is home to the Petronas Twin Towers, one of the country's most famous landmarks."
+  },
+  {
+    "id": 27,
+    "countryName": "Singapore",
+    "capital": "Singapore",
+    "population": 6100000,
+    "interestingFact": "Singapore is a small island nation known for its clean streets, modern architecture, and Gardens by the Bay."
+  },
+  {
+    "id": 28,
+    "countryName": "Nepal",
+    "capital": "Kathmandu",
+    "population": 30000000,
+    "interestingFact": "Nepal is home to Mount Everest, the highest mountain on Earth."
+  },
+  {
+    "id": 29,
+    "countryName": "Switzerland",
+    "capital": "Bern",
+    "population": 9100000,
+    "interestingFact": "Switzerland is famous for the Alps, watches, chocolate, and beautiful mountain landscapes."
+  },
+  {
+    "id": 30,
+    "countryName": "New Zealand",
+    "capital": "Wellington",
+    "population": 5400000,
+    "interestingFact": "New Zealand was the first self-governing country in the world where women gained the right to vote."
+  }
+]
