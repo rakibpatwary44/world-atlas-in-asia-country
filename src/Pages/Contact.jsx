@@ -14,7 +14,7 @@ const Contact = () => {
           className="container5 h-fit w-lg p-10! rounded-md  "
         >
           <h2 className="w-full text-center text-3xl font-bold leading-tight">
-            Contact us
+            <span className="text-amber-700 font-bold">Contact</span> us
           </h2>
           <div>
             <label htmlFor="name" className="text-xl ">
@@ -26,7 +26,7 @@ const Contact = () => {
               type="text"
               placeholder="Your name"
               required=""
-              className=" border w-full p-4  rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:dark:ring-orange-600 "
+              className=" border w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:dark:ring-orange-600 "
             />
           </div>
           <div>

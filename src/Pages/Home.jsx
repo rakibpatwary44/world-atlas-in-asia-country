@@ -3,11 +3,12 @@ import Wrapper from "./../components/Wrapper";
 import world from "../assets/pngegg.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import About from "./About";
 
 const Home = () => {
   return (
     <Wrapper>
-      <main className=" h-100 space-y-4 grid grid-cols-2 items-center justify-center ">
+      <main className=" h-90 space-y-4 grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1 items-center justify-center ">
         <div className="flex flex-col gap-6">
           <h1 className="text-4xl font-semibold ">
             Explore The <span className="font-bold text-red-500"> World</span>,
@@ -27,6 +28,7 @@ const Home = () => {
           <img src={world} alt="" />
         </div>
       </main>
+      <About />
     </Wrapper>
   );
 };

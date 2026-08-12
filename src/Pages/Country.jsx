@@ -3,10 +3,13 @@ import React, { useEffect, useState, useTransition } from "react";
 import Wrapper from "../components/Wrapper";
 import Loading from "../components/Ui/Loading";
 import { NavLink } from "react-router-dom";
+import SearchFilter from "../components/Ui/SearchFilter";
 
 const Country = () => {
   const [isPending, startTransition] = useTransition();
   const [countries, setCountries] = useState([]);
+  const [search, setSearch] = useState();
+  const [filter, setFilter] = useState("all");
 
   const countryApi = async () => {
     try {
@@ -22,12 +25,38 @@ const Country = () => {
     countryApi();
   }, []);
 
+  console.log(search, filter);
+
+  const searchCountry = (country) => {
+    if (search) {
+      return country.name.toLowerCase().includes(search.toLowerCase());
+    }
+    return country;
+  };
+
+  const filterSubregion = (country) => {
+    if (filter === "all") return country;
+    return country.subregion === filter;
+  };
+  // main logic in the website
+  const filterCountry = countries.filter(
+    (country) => searchCountry(country) && filterSubregion(country),
+  );
+
   if (isPending) return <Loading />;
   return (
     <div className="py-10">
       <Wrapper>
+        <SearchFilter
+          search={search}
+          setSearch={setSearch}
+          filter={filter}
+          setFilter={setFilter}
+          countries={countries}
+          setCountries={setCountries}
+        />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5  ">
-          {countries.map((country) => (
+          {filterCountry.map((country) => (
             <div
               key={country.name}
               className="max-w-200  min-h-fit  flex flex-col rounded-md shadow-md bg-white/10  backdrop-blur-md hover:bg-black/20

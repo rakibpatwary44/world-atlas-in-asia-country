@@ -5,15 +5,15 @@ import countryFacts from "../Api/CountryDeatails.json";
 const About = () => {
   return (
     <Wrapper>
-      <section className="py-10 ">
-        <div className="text-center flex  h-30 justify-center items-center   ">
+      <section className="py-5  ">
+        <div className="text-center flex h-30 justify-center items-center   ">
           <h2 className="text-3xl font-bold  ">
             Here are the Interesting Fact <br /> We're{" "}
             <span className="font-bold text-amber-500">proud</span> of
           </h2>
         </div>
 
-        <div className="  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 mt-10  ">
+        <div className="  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 mt-10 ms ">
           {countryFacts.map(
             ({ id, countryName, capital, population, interestingFact }) => (
               <div
