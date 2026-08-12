@@ -1,5 +1,6 @@
 # 🌍 WorldAtlas
 Live link : https://worlds-altas.netlify.app/
+<br/>
 WorldAtlas is a responsive country exploration website built with React.  
 Users can explore countries, view important information, and open a dedicated details page for each country.
 
